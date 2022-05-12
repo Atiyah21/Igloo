@@ -1,0 +1,119 @@
+@import url("https://use.typekit.net/qqn5kqj.css");
+
+* {
+  font-family: quicksand, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+}
+
+.content {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  min-height: 120px;
+  padding: 0 32px;
+}
+
+.test {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  padding-top: 15vh;
+  margin: auto;
+  width: 100%;
+}
+
+.textbox {
+  border: 3px solid rgb(126, 191, 202);
+  border-radius: 4px;
+  color: #183153;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #eff0f2;
+  height: 50px;
+  line-height: normal;
+  display: block;
+  padding: 0 6px 0 12px;
+  margin-bottom: 16px;
+}
+
+.textbox:focus {
+  border-color: #5551ff;
+  outline: 0;
+  background-color: #f5f6f8;
+}
+
+.submit {
+  background-color: rgb(126, 191, 202);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  height: 3rem;
+  transition: transform 0.3s;
+}
+
+.submit:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.submit:focus {
+  transform: translateY(4px);
+  cursor: pointer;
+}
+
+.wrong {
+  display: none;
+  margin-bottom: 16px;
+  color: #f24822;
+  text-align: left;
+}
+
+.link {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+a {
+  cursor: pointer;
+  color: #5551ff;
+  margin-left: 4px;
+}
+
+h1 {
+  text-align: center;
+  margin: 2.5rem 0;
+}
+
+form {
+  margin-bottom: 1.5rem;
+}
+
+.validate {
+  display: none;
+  margin-bottom: 16px;
+  color: #22f260;
+  text-align: center;
+}

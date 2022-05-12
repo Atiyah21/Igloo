@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  /*top: 0;
+    left: 0;
+    right: 0;
+     max-width: 400px; */
+  min-height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 16px;
+  min-height: 120px;
+  padding: 0 32px;
+  flex-grow: 1;
+  padding-top: 10vh;
+  margin: auto;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.acc-details {
+  display: flex;
+  align-items: flex-start;
+  align-content: start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-direction: column;
+}
+
+.acc-img {
+  margin-right: 1em;
+}
+
+.acc-img > img {
+  border-radius: 100%;
+  /* max-width: 70%;
+    height: auto; */
+}
+
+.acc-other {
+  position: relative;
+}
+
+.comment-section-posted {
+}

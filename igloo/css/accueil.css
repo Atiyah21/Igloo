@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+*{
+    font-family: 'Montserrat';
+}
+body{
+    margin: 0 auto;
+    
+}
+/* Header */
+header{
+    background-color: rgb(126, 191, 202);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+header.header img{
+    max-width: 70px;
+    width: auto;
+    margin-left: 1%;
+    flex-wrap: wrap;
+   
+}
+
+header.header img.user{
+    margin-right: 5%;
+    max-width: 30px;
+    width: auto;
+
+}
+
+header.header a.profil{
+    margin-right: 5% ;
+}
+
+/* menu de navigation */
+
+nav.nav{
+    display: flex;
+    list-style: none;
+    margin-left: 3%;
+    margin-right: 4%;
+    justify-content: space-between;
+    width: 35%;
+    flex-wrap: wrap;
+
+}
+
+nav.nav li{
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    
+}
+
+nav.nav li a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+}
+
+.search-box{
+    margin: 10 px;
+    padding: 10px;
+    width: 40%;
+
+    
+}
+
+.barre{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+.search-txt{
+    margin-right: 2%;
+    width: 95%;  
+    height: 25px
+}
+
+/* contenu de la page */
+.main-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.first{
+    display: flex;
+}
+
+.first img{
+    width: 300px;
+    padding: 10px;
+    display: block;
+
+}
+
+.first a{
+    display: flex;
+    margin-left: 35%;
+}
+
+.photos img{
+    width: 300px;
+    width: 350px;
+    padding: 10px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 100px;
+
+}
+
+.second img{
+    width: 300px;
+    padding: 10px;
+}
+
+.second a{
+    display: flex;
+
+}
+
+
+
+.photos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+
+}
+
+.photos img{
+    width: 350px;
+    padding: 10px;
+}
+
+.description{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.commentaire{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+
+.comm{
+    width: 1000px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+.name{
+    font-weight: bold;
+    margin-left: 5px;
+
+}
+
+.comment{
+    margin-left: 15px;
+}
+
+.react{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+
+}
+
+.react a{
+    width: 100%;
+}
+
+.btn{
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ 
+}
+
+.btn img{
+    width:100%;
+}
+
+.react_avis{
+    display: flex;
+    width: 300px;
+    height: 50px;
+}
+
+.react_avis a{
+    width: 150px;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.react_avis img{
+    width:10%;
+}
+
+
+.card-profile-info{
+
+    margin-left : 50px;
+}
+
+
